@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="srcs\icons\lain.png" type="image/png">
+    <link rel="stylesheet" href="node_modules\98.css\style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>LiberTango</title>
+</head>
+<body>
+    <main>
+        <div class="icons">
+            <div id="icon-4">
+                <img  width="32" height="32" src="srcs\icons\cd_audio_cd_a-4.png" class="img" id="myMusic">
+                <p class="name">Music</p>
+            </div>
+            <div id="icon-1">
+                <img  width="32" height="32" src="srcs\icons\computer_explorer-4.png" class="img" id="myComputer">
+                <p class="name">MyComputer</p>
+            </div>
+            <div id="icon-2">
+                <img  width="32" height="32" src="srcs\icons\console_prompt-0.png" class="img">
+                <p class="name">Consola</p>
+            </div>
+            <div id="icon-3">
+                <img  width="32" height="32" src="srcs\icons\directory_closed-4.png" class="img" id="myFiles">
+                <p class="name">MyFiles</p>
+            </div>
+        </div>
+        <div class="window" style="width: 800px; height: 600px;" id="computerWindow">
+            <div class="title-bar" id="windowBar1">
+              <div class="title-bar-text">MyComputer</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close" id="close_1"></button>
+              </div>
+            </div>
+            <div class="nav-bar">
+                <p style="margin-left: 8px;">File</p>
+                <p>Edit</p>
+                <p>View</p>
+            </div>
+            <div class="document-bar">
+                <p>Address</p>
+                <select>
+                    <option>My Computer</option>
+                </select>
+            </div>
+            <div class="window-body">
+                <div class="innerWindow">
+                    <div class="container-1">
+                        <div>
+                            <h1 id="welcome">WELCOME TO MY PAGE:</h1>
+                            <p>Hello, my name is Tango Liver, although I also go with BLUHD823 online.<br>
+                                I'm a 19-year-old programmer, and Photoshop regular user, from Argentina.
+                            </p>  
+                            <p>
+                                This is my personal blog and project. It is an excuse to put into<br>
+                                use all my programming skills.<br>
+                                Enjoy it! I'm putting a lot of effort into it and I'll be updating this<br>
+                                page regularly.<br>
+                                Pd: Follow my twitter bot!
+                            </p>
+                        </div>
+                        <div class="links-icons">
+                            <a href="https://github.com/BLUHD823" target="_blank">
+                                <img  width="96" height="96" src="srcs\icons\git.png" class="iconsLinks">
+                                <p>My Github</p>
+                            </a>
+                            <a href="https://www.instagram.com/tango_liver/" target="_blank">
+                                <img  width="96" height="96" src="srcs\icons\instagram.png" class="iconsLinks">
+                                <p>My Instagram</p>
+                            </a>
+                            <a href="https://twitter.com/FelizJuevesBott" target="_blank" alt="my twitter bot">
+                                <img  width="96" height="96" src="srcs\icons\jueves_bot.png" class="iconsLinks">
+                                <p>My Twitter Bot</p>
+                            </a>
+                        </div> 
+                    </div> 
+                    <div class="container-2">
+                        <p>
+                            ⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+                            ⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘<br>
+                        </p>
+                        <h4>UPDATES AND FEATURES!</h4>
+                        <p><u>MY FILES</u>: Link to my personal art/edits. Right click them to dowload.✅</p>
+                        <P>MUSIC: Inspired in old Windows cd players, this has a direct link to different playlists both in YouTube and Spotify.✅</P>
+                        <p>CONSOLE: On the work!❌</p>
+                        <p id="charger">0% [█ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █] 100%</p>
+                        <h4>BUTTONS!</h4>
+                        <p>All of the buttons redirect to other websites. TRY THEM ALL!!!</p>
+                        <div class="main-media">
+                            <a href="https://www.amazon.com" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\amazon.gif" class="iconsLinks" style="width: 88px;">
+                            </a>
+                            <a href="https://www.apple.com" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\apple.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://discord.com" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\discord2.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.netflix.com" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\netflix-88x31.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://twitter.com/home" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\twitterbutton.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.youtube.com" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\ytbutton.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.nationalgeographicla.com" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\ngs-88x31-logo.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.newgrounds.com" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\bigexplosions3.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.playstation.com/es-ar/" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\psbutton.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.win-rar.com/start.html?&L=6" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\rarnow.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://store.steampowered.com/?l=spanish" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\steam.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://neocities.org" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\nc.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://horrorgifs.neocities.org" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\hgs.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.opera.com/es/download" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\opera-bluepattern88x31.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.mozilla.org/es-AR/firefox/browsers/" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\firefoxn00bs.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://archive.org/details/xphomesp3" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\imissxp.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://buttonwall.neocities.org" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\captain-hawkes.neocities.org.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://www.youtube.com/@Gorillaz" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\p4-murdoc.png" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\javascriptkit.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://twitter.com/FelizJuevesBott/status/1745520956636823664/photo/1" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\FELIZ-JUEVES.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\wwwbutton.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://vagab0nd.neocities.org" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\vbtn.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://scarecat.neocities.org" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\scarecat.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://humanityisnotbeautiful.neocities.org"><img src="https://files.catbox.moe/vltthb.png" alt="Velvet Blue"></a>
+                            <a href="https://youtube.com/playlist?list=PLk_xwpTMJK22fJGLbCMMYTKBlrreutyU3&si=F3AQxwiQ64jwNPDJ" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\hellsing-button.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://store.steampowered.com/app/411370/Melty_Blood_Actress_Again_Current_Code/" target="_blank" alt="my twitter bot">
+                                <img src="srcs\gifs\BUTTON-ARC-EARTH.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                        </div>
+                        <div class="my-button">
+                            <a href="https://neocities.org/site/libertango" target="_blank" alt="my twitter bot" style="height:31px;">
+                                <img src="srcs\gifs\LIBERTANGO-BUTTON.png" class="iconsLinks" style="width: 88px;">
+                            </a>
+                            <p>MY BUTTON</p>
+                        </div>
+                    </div> 
+                </div>
+                <p id="pe">Warning! This website was made for 1920x1080 PC resolutions. Not recommended on mobile devices.</p>
+            </div>
+        </div>
+        <div class="window" style="width: 800px; height: 600px;" id="fileWindow">
+            <div class="title-bar" id="windowBar2">
+              <div class="title-bar-text">MyFiles</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close" id="close_2"></button>
+              </div>
+            </div>
+            <div class="document-bar">
+                <p>Look In</p>
+                <select>
+                    <option>MyFiles</option>
+                </select>
+            </div>
+            <div class="window-body">
+              <div class="innerWindow">
+                <div class="line-title">
+                    <img src="srcs\icons\directory_open_cool-3.png" style="height: 24px;">
+                    <p>IMAGES</p>
+                </div>
+                <div class="elmnt-container">
+                    <div class="item-container">
+                        <img src="srcs\images\ave maria.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\BRUTALISM.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\caravagios.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\COVER.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\cyberia grain.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\lain glitch.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\lain.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\LOGO.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\shinji abstracto.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\misato katsuragi.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\perfect blue card.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\perla sin fondo.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\png remera final.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\storie.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\sunsent.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\the end of the evangelion.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\VAPE.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\dark malenia.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\RUINER SQUARE.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\RUINER.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\BSAS POSTER WHITE.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\images\BSAS POSTER BLUE.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                </div>
+                <div class="line-title">
+                    <img src="srcs\icons\directory_open_cool-3.png" style="height: 24px;">
+                    <p>GIFS</p>
+                </div>
+                <div class="elmnt-container">
+                    <div class="item-container">
+                        <img src="srcs\graphics\ARCHETYPE-EARTH.gif" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\graphics\feliz jueves.gif" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\graphics\gif-portada-2.gif" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\graphics\marvelous-arcueid_2.gif" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\graphics\ultra-red-arcueid-2.gif" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                </div>
+                <div class="line-title">
+                    <img src="srcs\icons\directory_open_cool-3.png" style="height: 24px;">
+                    <p>BACKGROUND(change BG by clicking on the image)</p>
+                </div>
+                <div class="elmnt-container">
+                    <div class="item-container">
+                        <img src="srcs\SRL.jpg" style="max-height: 90px; margin-top: 5px;" id="bg1">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\SRLW.png" style="max-height: 90px; margin-top: 5px;" id="bg2">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\SRLW2.png" style="max-height: 90px; margin-top: 5px;" id="bg3">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\SRLW3.png" style="max-height: 90px; margin-top: 5px;" id="bg4">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\AW.png" style="max-height: 90px; margin-top: 5px;" id="bg5">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\AW2.png" style="max-height: 90px; margin-top: 5px;" id="bg6">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\AW3.png" style="max-height: 90px; margin-top: 5px;" id="bg7">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs\AW4.png" style="max-height: 90px; margin-top: 5px;" id="bg8">
+                        <p>.</p>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        <div class="window" style="width: 300px" id="musicWindow">
+            <div class="title-bar" id="windowBar3">
+                <div class="title-bar-text">Music</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close" id="close_3"></button>
+                </div>
+            </div>
+            <div class="nav-bar">
+                <p style="margin-left: 8px;">File</p>
+                <p>Disc</p>
+                <p>View</p>
+                <p>Options</p>
+                <p>Help</p>
+            </div>
+            <div class="window-body">
+                <div class="control-container">
+                    <div class="field-row">
+                        <label for="range28">Volume</label>
+                        <div class="is-vertical">
+                          <input id="range28" class="has-box-indicator" type="range" min="1" max="3" step="1" value="2" />
+                        </div>
+                    </div>
+                    <div class="image"></div>
+                    <div class="controls">
+                        <a href="https://youtube.com/playlist?list=PLk_xwpTMJK22fJGLbCMMYTKBlrreutyU3&si=3NmbfX_bUr3lyo0f" target="_blank" id="buttonRedirect">
+                            <button class="pauseBtn" id="play">
+                                <div class="pause"></div>
+                            </button>
+                        </a>
+                        <div class="file-controls">
+                            <button class="pauseBtn">
+                                <div class="pause" style="background-image: url(srcs/icons/pngwing1.png);"></div>
+                            </button>
+                            <button class="pauseBtn">
+                                <div class="pause" style="background-image: url(srcs/icons/pngwing2.png);"></div>
+                            </button>
+                            <button class="pauseBtn">
+                                <div class="pause" style="background-image: url(srcs/icons/pngwing4.png);"></div>
+                            </button>
+                            <button class="pauseBtn">
+                                <div class="pause" style="background-image: url(srcs/icons/pngwing5.png);"></div>
+                            </button>
+                            <button class="pauseBtn">
+                                <div class="pause" style="background-image: url(srcs/icons/pngwing6.png);"></div>
+                            </button>
+                            
+                        </div>
+                    </div>
+                </div>
+                <select id="mscSelector">
+                    <option selected>Yasushi Ishii - Hellsing: Unreleased TV OST/Soundtrack</option>
+                    <option>Serial Experiments Lain OST [Full Album + Duvet]</option>
+                    <option>Serial Experiments Lain OST - Cyberia Mix [Full Album]</option>
+                    <option>ULTRA/MIX</option>
+                    <option>Destiny 2 RASPUTIN'S NODES</option>
+                    <option>Call of Duty Zombies Mix</option>
+                    <option>GORILLAZ</option>
+                    <option>RUINER TRACKS</option>
+                </select>
+                <p>Select the track, and hit the play button. It will redirect you to the playlist.</p>
+            </div>
+        </div>
+        <div class="window bar">
+            <button id="start_button">
+                <div id="windows_icon"></div>
+                <p>Start</p>
+            </button>
+            <div class="time-z">
+                <p>00:00:00</p>
+            </div>
+        </div>
+    </main>
+    <script src="java.js"></script>
+    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+    <script src="times.js"></script>
+</body>
+</html>
