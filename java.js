@@ -243,9 +243,25 @@ document.getElementById('mscSelector').addEventListener('change', function(){
             document.querySelector("div.image").style.backgroundImage = 'url(https://i.ytimg.com/vi/bEHUFRRK9Sk/hqdefault.jpg?sqp=-oaymwE9CPYBEIoBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYYyBAKGUwDw==&rs=AOn4CLDlCFad1LkQrBb73oDK4jDO5XN8Vg)';
             document.getElementById('buttonRedirect').href = "https://www.youtube.com/watch?v=bEHUFRRK9Sk&t=318s";
             break;
-        case 'ULTRA/MIX':
-            document.querySelector("div.image").style.backgroundImage = 'url(https://i.scdn.co/image/ab67706c0000da84a4083fbbcf96bca8bd9894d6)';
-            document.getElementById('buttonRedirect').href = "https://open.spotify.com/playlist/1t0WYUtMDGuXIh8qHkdt6R?si=74341d1ed2a84224";
+        case 'Suilen - Hita-Hita':
+            document.querySelector("div.image").style.backgroundImage = 'url(srcs/icons/HitaHita.jpg)';
+            document.getElementById('buttonRedirect').href = "https://www.mediafire.com/file/fmotdja2zhonaod/suilen_-_hita-hita.rar/file";
+            break;
+        case 'Suilen - licca-no-ne':
+            document.querySelector("div.image").style.backgroundImage = 'url(srcs/icons/Licca-no-ne.jpg)';
+            document.getElementById('buttonRedirect').href = "https://www.mediafire.com/file/i5vai7sr5hoz7yy/suilen_-_licca-no-ne.rar/file";
+            break;
+        case 'Suilen - Neo Haram':
+             document.querySelector("div.image").style.backgroundImage = 'url(srcs/icons/Neo_Haram.webp)';
+            document.getElementById('buttonRedirect').href = "https://www.mediafire.com/file/1c7ser9635b8j4n/suilen_-_neo-haram.rar/file";
+            break;
+        case 'Suilen - Spine':
+            document.querySelector("div.image").style.backgroundImage = 'url(srcs/icons/1685367837573.jpg)';
+            document.getElementById('buttonRedirect').href = "https://www.mediafire.com/file/oic4cn1w5sqcuof/Suilen_-_Spine.rar/file";               
+            break;
+        case 'Suilen - The Dawn':
+            document.querySelector("div.image").style.backgroundImage = 'url(srcs/icons/cover-dawn.jpg)';
+            document.getElementById('buttonRedirect').href = "https://www.mediafire.com/file/smot2ykl0ui6938/suilen_-_the_dawn.rar/file";
             break;
         case "Destiny 2 RASPUTIN'S NODES":
             document.querySelector("div.image").style.backgroundImage = 'url(https://i.scdn.co/image/ab67706c0000da842cdd788289ca675d93bd6bd4)';
@@ -256,7 +272,7 @@ document.getElementById('mscSelector').addEventListener('change', function(){
             document.getElementById('buttonRedirect').href = "https://open.spotify.com/playlist/3gPi90iO3JI7TCDIyOuo31?si=d39632477b0d4514";
             break;
         case 'GORILLAZ':
-            document.querySelector("div.image").style.backgroundImage = 'url(https://i.scdn.co/image/ab67706c0000da847602c4fc98ac6862201f9a8f)';
+            document.querySelector("div.image").style.backgroundImage = 'url(https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b75039b96e14621f44218f83)';
             document.getElementById('buttonRedirect').href = "https://open.spotify.com/playlist/3u8qm7ggcwxvd8p9gYPS5v?si=7cbf4619dbe94f54";
             break;
         case 'RUINER TRACKS':
